@@ -22,4 +22,4 @@ Before high-level modeling, raw scans often need format conversion and quick san
 git clone https://github.com/tayalin2018/faust_demo.git
 cd faust_demo
 python -m pip install trimesh numpy tqdm
-python process_faust.py <path-to-MPI-FAUST>
+python process_faust.py MPI-FAUST          # if the dataset sits in ./MPI-FAUST
