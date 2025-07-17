@@ -17,7 +17,7 @@ def main(mesh_dir: str) -> None:
     root = pathlib.Path(mesh_dir).expanduser()
 
     # Gather both .ply and .obj meshes so the script works on either set
-    mesh_paths = sorted(root.rglob("*.ply")) + sorted(root.rglob("*.obj"))
+    mesh_paths = sorted(root.rglob("*.ply"))
     if not mesh_paths:
         print(f"No .ply or .obj files found in {root}")
         sys.exit(1)
