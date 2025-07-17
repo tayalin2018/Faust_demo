@@ -15,6 +15,11 @@ Before high-level modeling, raw scans often need format conversion and quick san
 
 ---
 
+## Mesh Processing Outcome
+![Processing outcome](Mesh%20processing%20outcome.png)
+
+---
+
 ## Quick start (3 commands)
 
 ```bash
@@ -22,10 +27,5 @@ git clone https://github.com/tayalin2018/faust_demo.git
 cd faust_demo
 python -m pip install trimesh numpy tqdm
 python process_faust.py MPI-FAUST          # if the dataset sits in ./MPI-FAUST
-
----
-
-## Mesh Processing Outcome
-![Processing outcome](Mesh%20processing%20outcome.png)
 
 ---
