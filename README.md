@@ -1,4 +1,5 @@
-# FAUST 3-D Mesh Pipeline
+## FAUST 3-D Mesh Pipeline
+Small, self-contained script that batch-converts FAUST .ply human-body scans to .obj format, logs basic geometry statistics, and prints throughput.
 
 | Metric            | Value                                     |
 |-------------------|-------------------------------------------|
